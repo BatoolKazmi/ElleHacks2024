@@ -1,10 +1,10 @@
 import csv
 
 # Define the filename of the input CSV file
-input_filename = "./base_log.csv"
+input_filename = "./ElleHacks2024/csv_and_py/base_log.csv"
 
 # Define the filename of the output CSV file
-output_filename = "./filtered_tweets_cancelled.csv"
+output_filename = "./ElleHacks2024/csv_and_py/filtered_tweets_cancelled.csv"
 
 # Define an empty list to store filtered tweets
 filtered_tweets = []
