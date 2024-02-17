@@ -1,0 +1,64 @@
+@import url(./reset.css);  
+
+body {
+    background-color: beige;
+    display: grid;
+}
+
+nav {
+    display: grid;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 0.1em;
+    width: 100%;
+
+    grid-template-columns: 2% 98%;
+    padding: 1em 1em;
+}
+
+nav i:first-of-type {
+    display: grid;
+    color: beige;
+    grid-column: 1 / 1;
+    font-size: 1.3em;
+    margin-right: 0.1em;
+    justify-content: end;
+}
+
+nav ul li {
+    justify-items: start;
+    color: beige;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-items: center;
+}
+
+form {
+    padding: 5em;
+    width: 90%;
+    margin: 2em 0em 7em 0em;
+    display: grid;
+    justify-items: center;
+    grid-column-start: 2;
+
+    background-color: white;
+    border-radius: 1em;
+    max-width: 25em;  
+    max-height: 50em;
+}
+
+form h3 {
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 1em;
+    color: #373d3f;
+}
+
+/* div {
+    padding: 1em 12em;
+    margin: 1em;
+    border: 0.2em black solid;
+
+} */
