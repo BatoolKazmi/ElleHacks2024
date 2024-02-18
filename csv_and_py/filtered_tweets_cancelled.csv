@@ -1,5 +1,3 @@
-content,date
-"Service alert: the following trips have been cancelled 
-2127 # 4 Departing PTBO Terminal to PTBO Museum 
-2132 & 2232 #4 Departing PTBO Museum To Woodglade @ Sherbrooke 
-2200 & 2300 #4 Departing Woodglade @ Sherbrooke To PTBO Museum", 7:50 PM Feb 15 2024
+Content,Date
+"14:45, bus number 8, departing Fleming has been cancelled.", 12:26 PM Feb 16 2024
+"16:45, bus number 8, departing Fleming has been cancelled.  \n17:45, bus number 8, departing Trent has been cancelled.  "," ""4:20 PM Jan 24"
