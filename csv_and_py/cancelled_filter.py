@@ -6,8 +6,7 @@ cwd = os.path.dirname(os.path.abspath(__file__))
 print(cwd)
 
 # UNCOMMENT IF YOU WANT TO RUN THE PROGRAM
-# client = OpenAI(api_key = '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')
-# prompt = "Your prompt here. For example, 'Once upon a time...'"
+client = OpenAI(api_key = KEY)
 
 input_filename = "base_log.csv"
 
