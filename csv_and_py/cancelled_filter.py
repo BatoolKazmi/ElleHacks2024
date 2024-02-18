@@ -5,7 +5,8 @@ from openai import OpenAI
 cwd = os.path.dirname(os.path.abspath(__file__))
 print(cwd)
 
-client = OpenAI(api_key = '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')
+# UNCOMMENT IF YOU WANT TO RUN THE PROGRAM
+# client = OpenAI(api_key = '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')
 # prompt = "Your prompt here. For example, 'Once upon a time...'"
 
 input_filename = "base_log.csv"
